@@ -16,6 +16,7 @@ class Index extends React.Component {
       );
       stories = await response.json();
     } catch (err) {
+      console.log(err);
       stories = [];
     }
 
