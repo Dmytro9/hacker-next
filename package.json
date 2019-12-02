@@ -1,0 +1,26 @@
+{
+  "name": "hacker-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -p 4002"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytro9/hacker-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmytro9/hacker-next/issues"
+  },
+  "homepage": "https://github.com/Dmytro9/hacker-next#readme",
+  "dependencies": {
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
