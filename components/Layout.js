@@ -10,7 +10,7 @@ const Layout = ({ children, title, description }) => (
     <div className="container">
       <nav>
         <Link href="/">
-          <span className="main-title">Hacker Next</span>
+          <a className="main-title">Hacker Next</a>
         </Link>
       </nav>
       {children}
