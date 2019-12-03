@@ -1,0 +1,9 @@
+# for working ruules
+
+dangerouslySetInnerHTML={{ __html: comment.content }}
+
+.comment-content :global(a) {
+    color: #f60;
+    text-decoration: underline;
+}
+
