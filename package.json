@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next -p 4002"
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.1.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "sw-precache-webpack-plugin": "^0.11.5"
   }
 }

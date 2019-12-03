@@ -1,5 +1,6 @@
 const Comment = ({ comment }) =>
-  console.log(comment) || (
+  // console.log(comment) || 
+  (
     <div className="comment">
       <div className="comment-user">{comment.user}</div>
       <div
