@@ -7,3 +7,11 @@ dangerouslySetInnerHTML={{ __html: comment.content }}
     text-decoration: underline;
 }
 
+
+# PWA
+more comfortable on mobile devices
+run app offline
+like native app
+can add icon to home screen (json file web app manifest - go to web app manifest generator - https://tomitm.github.io/appmanifest/)
+( https://app-manifest.firebaseapp.com/ for icons )
+ 
